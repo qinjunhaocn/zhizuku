@@ -13,14 +13,14 @@
 [versions]
 agp = "8.10.0"
 kotlin = "2.1.21"
-compose = "1.8.1"
+compose = "1.8.2"
 room = "2.7.1"
 accompanist = "0.36.0"
 rikka-shizuku = "13.1.5"
 koin = "4.0.4"
 
 [plugins]
-toolchains-resolver = { id = "org.gradle.toolchains.foojay-resolver-convention", version = "0.10.0" }
+toolchains-resolver = { id = "org.gradle.toolchains.foojay-resolver-convention", version = "1.0.0" }
 agp-lib = { id = "com.android.library", version.ref = "agp" }
 agp-app = { id = "com.android.application", version.ref = "agp" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
